@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+#app {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+h1{
+  text-align: center;
+  background-color: rgb(3, 3, 20);
+  color: aliceblue;
+  border-radius: 50px 0;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input {
+  margin: 15px;
+  padding: 14px;
+  width: 450px;
+  border-radius: 30px 0;
+
+
+}
