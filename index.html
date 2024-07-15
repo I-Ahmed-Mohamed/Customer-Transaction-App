@@ -8,15 +8,17 @@
 </head>
 <body>
     <div id="app">
-        <h1> { Customer Transaction App } </h1>
-        <div>
+        <h1> <span>{</span> Customer Transaction App <span>}</span> </h1>
+        <div class="filters">
             <input type="text" id="filterName" placeholder="Filter by customer name">
             <input type="number" id="filterAmount" placeholder="Filter by transaction amount">
         </div>
         <table id="customerTable">
-            <thead class="bg">
+            <thead>
                 <tr>
                     <th>Customer Name</th>
+                    <th>Analysis</th>
+                    <th>Status</th>
                     <th>Transaction Amount</th>
                     <th>Date</th>
                 </tr>
@@ -25,6 +27,16 @@
         </table>
         <canvas id="transactionChart"></canvas>
     </div>
+
+    <!-- Modal for displaying customer details -->
+    <div id="customerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Customer Details</h2>
+            <div id="customerDetails"></div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>
 </body>

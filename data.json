@@ -1,10 +1,10 @@
 {
     "customers": [
-        { "id": 1, "name": "Ahmed Ali" },
-        { "id": 2, "name": "Aya Elsayed" },
-        { "id": 3, "name": "Mina Adel" },
-        { "id": 4, "name": "Sarah Reda" },
-        { "id": 5, "name": "Mohamed Sayed" }
+        { "id": 1, "name": "Ahmed Ali", "analyses": "Blood Test", "status": "Completed" },
+        { "id": 2, "name": "Aya Elsayed", "analyses": "Urine Test", "status": "Pending" },
+        { "id": 3, "name": "Mina Adel", "analyses": "X-Ray", "status": "Completed" },
+        { "id": 4, "name": "Sarah Reda", "analyses": "MRI", "status": "In Progress" },
+        { "id": 5, "name": "Mohamed Sayed", "analyses": "CT Scan", "status": "Pending" }
     ],
     "transactions": [
         { "id": 1, "customer_id": 1, "date": "2022-01-01", "amount": 1000 },
